@@ -6,7 +6,7 @@ namespace SecretServerCLI.API
     {
         public UsernamePasswordOTPCredentials GetCredentials()
         {
-            AnsiConsole.Write(new Rule("[yellow]Login to Secret Server[/]") { Alignment = Justify.Left });
+            AnsiConsole.Write(new Rule("[yellow]Login to Secret Server[/]") { Justification = Justify.Left });
 
             var username = AnsiConsole.Prompt(new TextPrompt<string>("Username:").Secret());
             if (username == null) return null;

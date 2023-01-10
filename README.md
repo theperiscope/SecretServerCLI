@@ -1,6 +1,6 @@
 # Secret Server CLI
 
-Secret Server CLI is a .NET 6 console app that helps work with [Thycotic Secret Server](https://thycotic.com/products/secret-server/) API.
+Secret Server CLI is a .NET 7 console app that helps work with [Thycotic Secret Server](https://thycotic.com/products/secret-server/) API.
 
 ## Documentation
 
